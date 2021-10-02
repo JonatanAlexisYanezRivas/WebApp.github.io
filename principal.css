@@ -101,3 +101,40 @@ body{
       text-align: center;
       
   }
+
+@media screen and (max-width:500px){
+    .title{
+        font: italic bold 50px Georgia, Serif;
+    }
+
+    .container .card{
+        width: 300px;
+        height: 370px;
+        
+    }
+
+    .btn{
+    margin: auto;        
+    }
+}
+
+@media screen and (max-width:320px){
+    .title{
+        font: italic bold 30px Georgia, Serif;
+    }
+
+    .container .card img{
+    width: 300px;
+    height: 190px; 
+    }
+
+    .btn{
+        font-size: 15px;
+        width: 300px;
+        margin: auto;        
+    }
+
+    .btn P{
+        font-size: 25px;
+    }
+}
