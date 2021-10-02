@@ -18,6 +18,7 @@ header{
 /*menu*/
 
 .menu-icon{
+    z-index: 10;
     position: fixed;
     top: 55px;
     right: 30px;
@@ -30,6 +31,7 @@ header{
 }
 
 .menu{
+    z-index: 15;
     position: fixed;
     border-radius: 5px;
     top: 50px;
