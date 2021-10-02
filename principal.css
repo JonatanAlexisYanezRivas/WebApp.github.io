@@ -4,14 +4,20 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#f6d487;
+    background-color:cadetblue ;
+    /*background-color:#f6d487;*/
     height: 100vh;
 }
 /*head*/
 
 .title{
     text-align: center;
-    font-size: 45px;
+    color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 20;
+    font: italic bold 80px Georgia, Serif;
+    text-shadow: -4px 3px 0 #34acd1, -14px 7px 0 #0a0e27;
 }
 /*targets*/
 .titleCard{
@@ -50,8 +56,6 @@ body{
     font-size: 33px;
 }
 
-
-
 .container .card:hover{
     transform: translate(-15px);
     box-shadow: 0 12 px 16pc rgba(0, 0, 0, .2);
@@ -89,7 +93,7 @@ body{
   
   .btn-borde:hover, .btn-borde:active, .btn-borde:focus {
     color: #fff;
-    background:#fda085;
+    background:#03787c;
   }
 
   .btn{
