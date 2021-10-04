@@ -130,6 +130,21 @@ header{
     margin-bottom: 10px;
 }
 
+/*Results*/
+
+.content-graphics{
+    height: 100vh;
+}
+
+.graphic-sexo{
+    text-align: center;
+    width: 40%;
+}
+
+.graphic-age{
+    width: 40%;
+}
+/*Ajuste*/
 @media screen and (max-width:500px){
     .menu{
         width: 22.5vh;
