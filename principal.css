@@ -152,7 +152,16 @@ nav{
     .container .card{
         width: 300px;
         height: 370px;
-        
+       
+    }
+    .container .card img{
+        width: 310px;
+        height: 200px; 
+        }
+
+    .container .card h4{
+        font-size: 25px;
+        margin-bottom: 5px;
     }
 
     .btn{
@@ -168,6 +177,11 @@ nav{
     .container .card img{
     width: 300px;
     height: 190px; 
+    }
+
+    .container .card h4{
+        font-size: 20px;
+        margin-bottom: 5px;
     }
 
     .btn{
