@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*Header*/
-header{
+
+body{
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
+/*Header*/
+
 
 .title{
     text-align: center;
@@ -16,8 +18,60 @@ header{
     margin-right:50px;
 }
 /*menu*/
+.nav{
+    
+    text-align: center;
+}
 
-.menu-icon{
+.nav h3{
+    color: white;
+    font-size: larger;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.btn {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0.6em;
+    color: #ffffff;
+    cursor: pointer;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 5px;
+    padding: 0.2em 2.4em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.btn:hover, .btn:focus {
+    color: #fff;
+    outline: 0;
+}
+
+.first {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+    box-shadow: 0 0 40px 40px #4b49c9 inset;
+}
+
+
+/*.menu-icon{
     z-index: 10;
     position: fixed;
     top: 55px;
@@ -61,7 +115,7 @@ header{
 
 .menu a:hover{
     font-size: 25px;
-}
+}*/
 
 
 /*Formulario*/
